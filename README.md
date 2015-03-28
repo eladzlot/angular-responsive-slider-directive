@@ -4,7 +4,7 @@ http://viewthespace.github.io/angular-responsive-slider-directive
 ###Install:
 
 ```Javascript
-bower install angular-slider-directive
+bower install angular-responsive-slider-directive
 ```
 
 ###Options
