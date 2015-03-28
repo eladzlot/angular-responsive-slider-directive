@@ -1,5 +1,5 @@
 ### Demo
-http://viewthespace.github.io/angular-slider-directive
+http://viewthespace.github.io/angular-responsive-slider-directive
 
 ###Install:
 
