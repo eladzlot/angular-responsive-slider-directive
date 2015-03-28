@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <title>Angular Slider Directive</title>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+  </head>
+  <body>
+    <div ng-app='ovts' ng-init='val=25' class='main'>
+      <div ovts-slider='' model='val' ovts-slider-options='{label: "Probability", valueSuffix: "%"}'></div>
+    </div>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js'></script>
+    <script src='js/script.js'></script>
+  </body>
+</html>
