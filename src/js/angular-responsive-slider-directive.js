@@ -40,11 +40,11 @@ app.directive("ovtsSlider", function($document, $timeout) {
       scope.engageHandle = function(event) {
         var basePercentage, basePosition, mouseMove, mouseUp;
         event.preventDefault();
-        basePosition = event.screenX;
+        basePosition = event.pageX;
         basePercentage = percentage;
 
         mouseMove = function(event) {
-          percentage = basePercentage + (event.screenX - basePosition) / (element.prop("clientWidth") - sliderHandleWidth);
+          percentage = basePercentage + (event.pageX - basePosition) / (element.prop("clientWidth") - sliderHandleWidth);
           if (percentage < 0)
             percentage = 0;
 
