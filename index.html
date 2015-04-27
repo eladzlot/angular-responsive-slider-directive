@@ -6,9 +6,11 @@
     <link rel='stylesheet' type='text/css' href='src/style/style.css'>
   </head>
   <body>
-    <div ng-app='ovts' ng-init='val=25' class='main'>
-      <div ovts-slider='' model='val' ovts-slider-options='{label: "Probability", valueSuffix: "%"}'></div>
+    <div ng-app='ovts' ng-init='val=725' class='main'>
+      <div ovts-slider='' model='val' ovts-slider-options='{step:1, min: 300, max:800, highlight:true}'></div>
+      <div>{{val}}</div>
     </div>
+
 
     <script src='bower_components/angular/angular.js'></script>
     <script src='src/js/angular-responsive-slider-directive.js'></script>

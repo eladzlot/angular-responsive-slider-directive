@@ -1,24 +1,13 @@
-### Demo
-http://viewthespace.github.io/angular-responsive-slider-directive
-
-###Install:
-
-```Javascript
-bower install angular-responsive-slider-directive
-```
-
 ###Options
 ```
 min         : Maximum slider value.
 max         : Minimum slider value.
 step        : Slider values will be multiples of step. Handle snaps to these intervals.
-label       : Text label
-valuePrefix : Anything to be appended before the numeric value (e.g. $)
-valueSuffix : Anything to be appended after the numeric value (e.g. %)
+highlight   : Show highlight to left of handle
 ```
 
 ###Setup:
 
 ```HTML
-  <div ovts-slider='' model='val' ovts-slider-options='{label: "Probability", valueSuffix: "%"}'></div>
+  <div ovts-slider='' model='val' ovts-slider-options='{step: 5}'></div>
 ```
