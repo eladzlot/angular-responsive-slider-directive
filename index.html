@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <title>Angular Slider Directive</title>
-    <link rel='stylesheet' type='text/css' href='src/style/style.css'>
+    <link rel='stylesheet' type='text/css' href='src/style/slider.css'>
   </head>
   <body>
-    <div ng-app='ovts' ng-init='val=725' class='main'>
-      <div ovts-slider='' model='val' ovts-slider-options='{step:1, min: 300, max:800, highlight:true}'></div>
+    <div ng-app='pi' ng-init='val=37' class='main'>
+      <div pi-slider='' ng-model='val' pi-slider-options='{steps:3, min: 0, max:100, highlight:true, leftLabel:"left", rightLabel:"right",labels:["1,2,3","all the rest","begone!"]}'></div>
       <div>{{val}}</div>
     </div>
 
 
     <script src='bower_components/angular/angular.js'></script>
-    <script src='src/js/angular-responsive-slider-directive.js'></script>
+    <script src='src/js/slider.js'></script>
   </body>
 </html>
